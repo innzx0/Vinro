@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0b1e36; /* Тёмно-синий фон */
+    color: #cdd2e0; /* Светло-серый текст */
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #12263a; /* Тёмно-синий */
+}
+
+header h1 {
+    color: #4c9eff; /* Светло-голубой для заголовков */
+}
+
+header p {
+    color: #a1b8e6; /* Мягкий синий для описаний */
+}
+
+#about, #robots {
+    padding: 20px;
+    text-align: center;
+}
+
+#robots {
+    background-color: #102533; /* Тёмный фон для секций */
+}
+
+.robot-card {
+    background-color: #143551; /* Темно-синий фон карточек */
+    color: #cde4ff; /* Светло-голубой текст */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.robot-card h3 {
+    color: #50b8ff; /* Ярко-синий для названий роботов */
+}
+
+footer {
+    background-color: #12263a;
+    color: #6c849e;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+#logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
